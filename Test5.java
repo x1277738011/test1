@@ -1,5 +1,8 @@
 import java.util.Scanner;
-public class test5 {
+/**
+ * @author 12777
+ */
+public class Test5 {
     public static void main(String[] args){
         int x;
         Scanner in=new Scanner(System.in);
