@@ -1,4 +1,7 @@
 import java.util.Scanner;
+/**
+ * @author 12777
+*/
 public class test2 {
     public static void main(String[] args){
         int a=1;//单数月出生的兔子

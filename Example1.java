@@ -1,3 +1,6 @@
+/**
+ * @author 12777
+ */
 public class Example1 {
     public static void main (String[] args) {
         FuelTank ft = new FuelTank(100);
@@ -7,7 +10,7 @@ public class Example1 {
         System.out.println(ft.gas);
     }
 }
-class FuelTank {
+  class FuelTank {
     int gas;
     FuelTank(int x) {
         gas = x;
