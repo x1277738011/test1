@@ -9,7 +9,7 @@ public class Primzahl {
         for(int i=100;i>1;i--) {
             for (int j = i - 1; j >= 1; j--) {
                 if(j == 1) {
-                    System.out.println(i);
+                    System.out.print(" "+i);
                 }
                 if(i%j==0){
                     break;
