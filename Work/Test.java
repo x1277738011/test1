@@ -1,5 +1,8 @@
 package Work;
 
+/**
+ * @author 12777
+ */
 public class Test {
     public static void main(String[] args){
         CPU cpu=new CPU();
