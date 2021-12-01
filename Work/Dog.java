@@ -1,11 +1,11 @@
 package Work;
- class Dog extends Animal {
+ public class Dog implements Animal {
      @Override
-     void cry() {
+      public void cry() {
          System.out.println("汪汪");
      }
      @Override
-     String getAnimalName(){
+     public String getAnimalName(){
          return "我是狗";
      }
  }

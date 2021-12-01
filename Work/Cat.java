@@ -1,13 +1,13 @@
 package Work;
 
-class Cat extends Animal {
+class Cat implements Animal {
     @Override//伪代码，表示重写
-    void cry() {
+   public void cry() {
         System.out.println("喵喵");
     }
 
     @Override
-    String getAnimalName(){
+   public String getAnimalName(){
         return "我是猫";
     }
 }
